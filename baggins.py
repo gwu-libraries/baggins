@@ -38,9 +38,8 @@ def main(export_dir=settings.EXPORT_DIR, contact=settings.CONTACT_NAME,
     items = find_new_items(target)
     for item in items:
         item_path = path.join(target, item)
-        fname = path.split(item_path)[1]
         # For each new item, locate its corresponding metadata
-        meta_path = find_metadata(fname, meta_dir)
+        meta_path = find_metadata(item, meta_dir)
         # Construct the bag's directory structure (move files)
         build_foundation(item_path, meta_path, bag_folders)
         # Create the bag using bagit
