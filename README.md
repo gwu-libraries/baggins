@@ -1,2 +1,1 @@
-baggins
-=======
+This is a simple script for collecting images, pdfs, and metadata files into bags and moving them to a specified directory for export to a storage server.  It makes use of the Python bagit package.  This script is not intended for general use. It is specific to the GWU Libraries' current microfilm digitization project.

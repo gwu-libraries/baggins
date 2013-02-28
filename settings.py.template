@@ -1,0 +1,13 @@
+METADATA_DIR = ''
+
+READY_ITEMS_DIR = ''
+
+EXPORT_DIR = ''
+
+BAG_FOLDERS = [
+    {'name': 'IMAGES', 'file_types': ['jpg', 'jpeg', 'jp2', 'png', 'tiff', 'tif']},
+    {'name': 'METADATA', 'file_types': ['xml', 'mrc']},
+    {'name': 'PDF', 'file_types': ['pdf']}
+]
+
+CONTACT_NAME = 'Joshua Gomez'
